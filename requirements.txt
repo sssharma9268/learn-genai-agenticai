@@ -25,3 +25,4 @@ wikipedia
 youtube-search
 langgraph
 chromadb
+duckduckgo-search
