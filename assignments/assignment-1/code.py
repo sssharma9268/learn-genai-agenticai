@@ -1,3 +1,4 @@
+# Assignment based on basic RAG introduction
 # 1. fetch the data from pdf - system_design.pdf
 # 2. if chunking(use the sementic chunking technique) required do chunking and then embedding
 # 4. store it inside the vector database(use any of them 1. mongodb 2. astradb 3. opensearch 4.milvus) ## i have not discuss then you need to explore
