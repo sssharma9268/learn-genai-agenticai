@@ -26,3 +26,10 @@ youtube-search
 langgraph
 chromadb
 duckduckgo-search
+yfinance
+autogen-agentchat
+autogen-core
+autogen-ext
+dotenv
+openai
+tiktoken
