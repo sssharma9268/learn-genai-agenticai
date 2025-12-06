@@ -42,7 +42,7 @@ from pymilvus import (
 load_dotenv()
 
 # Constants
-PDF_PATH = "assignments/assignment-1/system_design.pdf"
+PDF_PATH = "./system_design.pdf"
 CHUNK_SIZE = 1000
 CHUNK_OVERLAP = 200
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
