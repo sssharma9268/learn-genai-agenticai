@@ -33,3 +33,4 @@ autogen-ext
 dotenv
 openai
 tiktoken
+autogen-ext[docker]
