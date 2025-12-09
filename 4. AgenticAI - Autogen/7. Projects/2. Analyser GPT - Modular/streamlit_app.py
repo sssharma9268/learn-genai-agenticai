@@ -2,9 +2,9 @@ import streamlit as st
 import asyncio
 import os
 
-from teams.analyzer_gpt import get_data_analyzer_team
-from models.openai_model_client import get_model_client
-from config.docker_util import get_docker_command_line_executor,start_docker_container,stop_docker_container
+from teams import get_data_analyzer_team
+from models import get_model_client
+from config import get_docker_command_line_executor,start_docker_container,stop_docker_container
 from autogen_agentchat.messages import TextMessage
 from autogen_agentchat.base import TaskResult
 

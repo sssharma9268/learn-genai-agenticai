@@ -1,4 +1,6 @@
 import asyncio
+
+from autogen_agentchat.ui import Console
 from teams import get_data_analyzer_team
 from models import get_model_client
 from config import get_docker_command_line_executor,start_docker_container,stop_docker_container
@@ -18,7 +20,7 @@ async def main():
         await start_docker_container(docker)
 
         async for message in team.run_stream(task=task):
-            print(message)
+            Console(message)
 
     except Exception as e:
         print(e)
