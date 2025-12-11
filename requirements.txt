@@ -36,3 +36,4 @@ tiktoken
 autogen-ext[docker]
 autogen-ext[redisvl]
 autogen-ext[mem0]
+autogen-ext[mcp]
