@@ -37,3 +37,6 @@ autogen-ext[docker]
 autogen-ext[redisvl]
 autogen-ext[mem0]
 autogen-ext[mcp]
+neo4j
+langchain_experimental
+langchain-neo4j
